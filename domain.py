@@ -41,9 +41,9 @@ def menu():
             print(Fore.LIGHTYELLOW_EX +
                   '[!] Created in:', infos['create_date'])
 
-    except ConnectionError:
-        print("[x] - Connection error")
-        time.sleep(1)
+    except KeyError:
+        print(f"[x] - Domains with '{domain_name}' not found")
+        time.sleep(2)
         menu()
 
 
