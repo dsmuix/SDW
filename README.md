@@ -5,7 +5,7 @@
 > Search domain by word (SDW) is a tool to find domains with a specific word
 
 ## Installation
-`git clone https://github.com/dsmuix/SDW.git`
+`git clone https://github.com/oppsec/SDW.git`
 
 ## Usage
 1. `python install -r requirements.txt`  
